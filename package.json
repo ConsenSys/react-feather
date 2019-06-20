@@ -1,6 +1,6 @@
 {
   "name": "react-feather",
-  "version": "1.1.6",
+  "version": "1.0.1",
   "description": "React component for Feather icons",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -45,7 +45,7 @@
     "uppercamelcase": "^3.0.0"
   },
   "peerDependencies": {
-    "react": ">= 15",
-    "prop-types": ">= 15"
+    "prop-types": ">= 15",
+    "react": ">= 15"
   }
 }
