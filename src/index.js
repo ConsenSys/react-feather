@@ -1,5 +1,3 @@
-import PropTypes from 'prop-types';
-
 export Activity from './icons/activity';
 export Airplay from './icons/airplay';
 export AlertCircle from './icons/alert-circle';

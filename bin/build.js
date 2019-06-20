@@ -19,14 +19,10 @@ interface Props extends SVGAttributes<SVGElement> {
 type Icon = ComponentType<Props>;
 `;
 
-const initialLibraryContents = `import PropTypes from 'prop-types';
-
-`;
-
 const iconNames = [];
 
 glob(`${rootDir}/src/feather/icons/**.svg`, (err, icons) => {
-  fs.writeFileSync(path.join(rootDir, 'src', 'index.js'), initialLibraryContents, 'utf-8');
+  fs.writeFileSync(path.join(rootDir, 'src', 'index.js'), '', 'utf-8');
   fs.writeFileSync(
     path.join(rootDir, 'src', 'index.d.ts'),
     initialTypeDefinitions,
@@ -117,8 +113,7 @@ glob(`${rootDir}/src/feather/icons/**.svg`, (err, icons) => {
     );
   });
 
-  console.log("Called");
-  // Export valid names proptypes
+  // Export valid icon names list
   const initialProptypeString = `export const IconNamesList = [\r\n`;
   fs.appendFileSync(
     path.join(rootDir, 'src', 'index.js'),
