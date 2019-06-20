@@ -1,16 +1,13 @@
-## React Feather Icons
-
-[![npm version](https://img.shields.io/npm/v/react-feather.svg?style=flat-square)](https://www.npmjs.com/package/react-feather)
-[![npm downloads](https://img.shields.io/npm/dm/react-feather.svg?style=flat-square)](https://www.npmjs.com/package/react-feather)
+# ConsenSys specific
+## Adding new icons
+New icons must be added to the [feather repo](https://github.com/ConsenSys/feather) directly. This library simply builds the icons based on those that exist in the [feather/icons](https://github.com/ConsenSys/feather/tree/master/icons) directory.
 
 #### What is react-feather?
 react-feather is a collection of simply beautiful open source icons for React.js. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency and readability.
 
-#### Based on Feather ```4.12.1```
-
 ### Installation
-    npm install react-feather --save
-
+    npm install ConsenSys/react-feather#vX.X.X --save
+Where X.X.X is the latest version number
 ### Usage
 
 ```javascript
@@ -61,4 +58,31 @@ export default App;
 Icons can be configured with inline props:
 ```javascript
 <Icon.AlertCircle color="red" size={48} />
+```
+
+# Development
+## setup
+Clone and update submodule:
+```
+git clone git@github.com:ConsenSys/react-feather.git
+git submodule init
+git submodule update
+```
+
+Install dependancies:
+```
+yarn
+```
+
+## Releasing new version
+Run:
+```
+yarn build
+yarn version
+```
+
+Push changes
+```
+git push origin master
+git push origin vX.X.X (<-- this should match the updated version number)
 ```
