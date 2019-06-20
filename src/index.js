@@ -280,7 +280,7 @@ export ZapOff from './icons/zap-off';
 export Zap from './icons/zap';
 export ZoomIn from './icons/zoom-in';
 export ZoomOut from './icons/zoom-out';
-export const ReactFeatherPropTypes = PropTypes.oneOf([
+export const IconNamesList = [
 'Activity',
 'Airplay',
 'AlertCircle',
@@ -561,4 +561,4 @@ export const ReactFeatherPropTypes = PropTypes.oneOf([
 'Zap',
 'ZoomIn',
 'ZoomOut',
-]);
+];

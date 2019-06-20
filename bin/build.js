@@ -119,7 +119,7 @@ glob(`${rootDir}/src/feather/icons/**.svg`, (err, icons) => {
 
   console.log("Called");
   // Export valid names proptypes
-  const initialProptypeString = `export const ReactFeatherPropTypes = PropTypes.oneOf([\r\n`;
+  const initialProptypeString = `export const IconNamesList = [\r\n`;
   fs.appendFileSync(
     path.join(rootDir, 'src', 'index.js'),
     initialProptypeString,
@@ -137,7 +137,7 @@ glob(`${rootDir}/src/feather/icons/**.svg`, (err, icons) => {
 
   fs.appendFileSync(
     path.join(rootDir, 'src', 'index.js'),
-    ']);\r\n',
+    '];\r\n',
     'utf-8'
   );
 
