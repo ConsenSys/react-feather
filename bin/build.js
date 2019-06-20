@@ -19,8 +19,14 @@ interface Props extends SVGAttributes<SVGElement> {
 type Icon = ComponentType<Props>;
 `;
 
+const initialLibraryContents = `import PropTypes from 'prop-types';
+
+`;
+
+const iconNames = [];
+
 glob(`${rootDir}/src/feather/icons/**.svg`, (err, icons) => {
-  fs.writeFileSync(path.join(rootDir, 'src', 'index.js'), '', 'utf-8');
+  fs.writeFileSync(path.join(rootDir, 'src', 'index.js'), initialLibraryContents, 'utf-8');
   fs.writeFileSync(
     path.join(rootDir, 'src', 'index.d.ts'),
     initialTypeDefinitions,
@@ -31,6 +37,7 @@ glob(`${rootDir}/src/feather/icons/**.svg`, (err, icons) => {
     const svg = fs.readFileSync(i, 'utf-8');
     const id = path.basename(i, '.svg');
     const ComponentName = (id === 'github') ? 'GitHub' : uppercamelcase(id);
+    iconNames.push(ComponentName);
     const $ = cheerio.load(svg, {
       xmlMode: true,
     });
@@ -109,4 +116,29 @@ glob(`${rootDir}/src/feather/icons/**.svg`, (err, icons) => {
       'utf-8'
     );
   });
+
+  console.log("Called");
+  // Export valid names proptypes
+  const initialProptypeString = `export const ReactFeatherPropTypes = PropTypes.oneOf([\r\n`;
+  fs.appendFileSync(
+    path.join(rootDir, 'src', 'index.js'),
+    initialProptypeString,
+    'utf-8'
+  );
+
+  iconNames.forEach((icon) => {
+    const proptypeString = `'${icon}',\r\n`;
+    fs.appendFileSync(
+      path.join(rootDir, 'src', 'index.js'),
+      proptypeString,
+      'utf-8'
+    );
+  });
+
+  fs.appendFileSync(
+    path.join(rootDir, 'src', 'index.js'),
+    ']);\r\n',
+    'utf-8'
+  );
+
 });
