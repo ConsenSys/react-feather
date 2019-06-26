@@ -14,6 +14,7 @@ const CheckSquare = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polyline points="9 11 12 14 22 4" />

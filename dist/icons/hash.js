@@ -34,7 +34,8 @@ var Hash = function Hash(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('line', { x1: '4', y1: '9', x2: '20', y2: '9' }),
     _react2.default.createElement('line', { x1: '4', y1: '15', x2: '20', y2: '15' }),

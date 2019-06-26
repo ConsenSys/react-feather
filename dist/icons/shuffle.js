@@ -34,7 +34,8 @@ var Shuffle = function Shuffle(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polyline', { points: '16 3 21 3 21 8' }),
     _react2.default.createElement('line', { x1: '4', y1: '20', x2: '21', y2: '3' }),

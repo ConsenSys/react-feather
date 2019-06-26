@@ -14,6 +14,7 @@ const Rewind = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polygon points="11 19 2 12 11 5 11 19" />

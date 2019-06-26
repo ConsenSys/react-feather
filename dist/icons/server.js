@@ -34,7 +34,8 @@ var Server = function Server(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('rect', { x: '2', y: '2', width: '20', height: '8', rx: '2', ry: '2' }),
     _react2.default.createElement('rect', { x: '2', y: '14', width: '20', height: '8', rx: '2', ry: '2' }),

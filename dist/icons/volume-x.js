@@ -34,7 +34,8 @@ var VolumeX = function VolumeX(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polygon', { points: '11 5 6 9 2 9 2 15 6 15 11 19 11 5' }),
     _react2.default.createElement('line', { x1: '23', y1: '9', x2: '17', y2: '15' }),

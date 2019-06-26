@@ -34,7 +34,8 @@ var UploadCloud = function UploadCloud(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polyline', { points: '16 16 12 12 8 16' }),
     _react2.default.createElement('line', { x1: '12', y1: '12', x2: '12', y2: '21' }),

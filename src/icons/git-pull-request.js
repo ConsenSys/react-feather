@@ -14,6 +14,7 @@ const GitPullRequest = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <circle cx="18" cy="18" r="3" />

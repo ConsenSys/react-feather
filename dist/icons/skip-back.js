@@ -34,7 +34,8 @@ var SkipBack = function SkipBack(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polygon', { points: '19 20 9 12 19 4 19 20' }),
     _react2.default.createElement('line', { x1: '5', y1: '19', x2: '5', y2: '5' })

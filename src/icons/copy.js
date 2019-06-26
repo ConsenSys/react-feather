@@ -14,6 +14,7 @@ const Copy = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />

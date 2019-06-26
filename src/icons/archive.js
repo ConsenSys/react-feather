@@ -14,6 +14,7 @@ const Archive = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polyline points="21 8 21 21 3 21 3 8" />

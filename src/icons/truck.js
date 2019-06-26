@@ -14,6 +14,7 @@ const Truck = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <rect x="1" y="3" width="15" height="13" />

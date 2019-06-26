@@ -34,7 +34,8 @@ var CornerUpRight = function CornerUpRight(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polyline', { points: '15 14 20 9 15 4' }),
     _react2.default.createElement('path', { d: 'M4 20v-7a4 4 0 0 1 4-4h12' })

@@ -14,6 +14,7 @@ const CloudRain = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <line x1="16" y1="13" x2="16" y2="21" />

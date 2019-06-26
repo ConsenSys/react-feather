@@ -34,7 +34,8 @@ var Share2 = function Share2(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('circle', { cx: '18', cy: '5', r: '3' }),
     _react2.default.createElement('circle', { cx: '6', cy: '12', r: '3' }),

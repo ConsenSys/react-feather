@@ -14,6 +14,7 @@ const Repeat = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polyline points="17 1 21 5 17 9" />

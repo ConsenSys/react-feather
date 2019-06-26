@@ -14,6 +14,7 @@ const Layers = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polygon points="12 2 2 7 12 12 22 7 12 2" />

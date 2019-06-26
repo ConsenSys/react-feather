@@ -34,7 +34,8 @@ var CornerRightDown = function CornerRightDown(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polyline', { points: '10 15 15 20 20 15' }),
     _react2.default.createElement('path', { d: 'M4 4h7a4 4 0 0 1 4 4v12' })

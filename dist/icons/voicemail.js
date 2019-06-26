@@ -34,7 +34,8 @@ var Voicemail = function Voicemail(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('circle', { cx: '5.5', cy: '11.5', r: '4.5' }),
     _react2.default.createElement('circle', { cx: '18.5', cy: '11.5', r: '4.5' }),

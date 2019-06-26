@@ -14,6 +14,7 @@ const Inbox = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polyline points="22 12 16 12 14 15 10 15 8 12 2 12" />

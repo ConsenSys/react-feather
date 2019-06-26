@@ -14,6 +14,7 @@ const Headphones = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <path d="M3 18v-6a9 9 0 0 1 18 0v6" />

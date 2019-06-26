@@ -14,6 +14,7 @@ const Sun = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <circle cx="12" cy="12" r="5" />

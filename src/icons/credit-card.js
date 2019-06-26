@@ -14,6 +14,7 @@ const CreditCard = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <rect x="1" y="4" width="22" height="16" rx="2" ry="2" />

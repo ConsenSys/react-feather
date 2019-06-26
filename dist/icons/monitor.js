@@ -34,7 +34,8 @@ var Monitor = function Monitor(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('rect', { x: '2', y: '3', width: '20', height: '14', rx: '2', ry: '2' }),
     _react2.default.createElement('line', { x1: '8', y1: '21', x2: '16', y2: '21' }),

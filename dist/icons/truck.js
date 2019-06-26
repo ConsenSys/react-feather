@@ -34,7 +34,8 @@ var Truck = function Truck(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('rect', { x: '1', y: '3', width: '15', height: '13' }),
     _react2.default.createElement('polygon', { points: '16 8 20 8 23 11 23 16 16 16 16 8' }),

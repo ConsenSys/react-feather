@@ -34,7 +34,8 @@ var AlignJustify = function AlignJustify(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('line', { x1: '21', y1: '10', x2: '3', y2: '10' }),
     _react2.default.createElement('line', { x1: '21', y1: '6', x2: '3', y2: '6' }),

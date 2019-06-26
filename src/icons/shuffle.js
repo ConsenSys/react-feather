@@ -14,6 +14,7 @@ const Shuffle = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polyline points="16 3 21 3 21 8" />

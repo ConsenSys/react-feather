@@ -14,6 +14,7 @@ const UploadCloud = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polyline points="16 16 12 12 8 16" />

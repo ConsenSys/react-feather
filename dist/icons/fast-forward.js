@@ -34,7 +34,8 @@ var FastForward = function FastForward(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polygon', { points: '13 19 22 12 13 5 13 19' }),
     _react2.default.createElement('polygon', { points: '2 19 11 12 2 5 2 19' })

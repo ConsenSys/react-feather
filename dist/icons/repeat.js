@@ -34,7 +34,8 @@ var Repeat = function Repeat(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polyline', { points: '17 1 21 5 17 9' }),
     _react2.default.createElement('path', { d: 'M3 11V9a4 4 0 0 1 4-4h14' }),

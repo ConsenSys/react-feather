@@ -14,6 +14,7 @@ const Edit3 = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <path d="M12 20h9" />

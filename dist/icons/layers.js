@@ -34,7 +34,8 @@ var Layers = function Layers(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polygon', { points: '12 2 2 7 12 12 22 7 12 2' }),
     _react2.default.createElement('polyline', { points: '2 17 12 22 22 17' }),

@@ -34,7 +34,8 @@ var PhoneMissed = function PhoneMissed(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('line', { x1: '23', y1: '1', x2: '17', y2: '7' }),
     _react2.default.createElement('line', { x1: '17', y1: '1', x2: '23', y2: '7' }),

@@ -34,7 +34,8 @@ var Move = function Move(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polyline', { points: '5 9 2 12 5 15' }),
     _react2.default.createElement('polyline', { points: '9 5 12 2 15 5' }),

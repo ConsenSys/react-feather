@@ -14,6 +14,7 @@ const Gift = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polyline points="20 12 20 22 4 22 4 12" />
