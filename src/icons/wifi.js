@@ -14,6 +14,7 @@ const Wifi = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <path d="M5 12.55a11 11 0 0 1 14.08 0" />

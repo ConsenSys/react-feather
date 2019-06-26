@@ -34,7 +34,8 @@ var ArrowRight = function ArrowRight(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('line', { x1: '5', y1: '12', x2: '19', y2: '12' }),
     _react2.default.createElement('polyline', { points: '12 5 19 12 12 19' })

@@ -14,6 +14,7 @@ const PhoneMissed = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <line x1="23" y1="1" x2="17" y2="7" />

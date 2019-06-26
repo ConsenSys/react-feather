@@ -34,7 +34,8 @@ var XSquare = function XSquare(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('rect', { x: '3', y: '3', width: '18', height: '18', rx: '2', ry: '2' }),
     _react2.default.createElement('line', { x1: '9', y1: '9', x2: '15', y2: '15' }),

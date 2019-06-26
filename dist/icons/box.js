@@ -34,7 +34,8 @@ var Box = function Box(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('path', { d: 'M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z' }),
     _react2.default.createElement('polyline', { points: '3.27 6.96 12 12.01 20.73 6.96' }),

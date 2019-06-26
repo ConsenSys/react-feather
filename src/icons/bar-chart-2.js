@@ -14,6 +14,7 @@ const BarChart2 = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <line x1="18" y1="20" x2="18" y2="10" />

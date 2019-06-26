@@ -34,7 +34,8 @@ var Coffee = function Coffee(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('path', { d: 'M18 8h1a4 4 0 0 1 0 8h-1' }),
     _react2.default.createElement('path', { d: 'M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z' }),

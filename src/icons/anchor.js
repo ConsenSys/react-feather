@@ -14,6 +14,7 @@ const Anchor = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <circle cx="12" cy="5" r="3" />

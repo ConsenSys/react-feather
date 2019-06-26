@@ -14,6 +14,7 @@ const Search = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <circle cx="11" cy="11" r="8" />

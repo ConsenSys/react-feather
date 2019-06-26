@@ -34,7 +34,8 @@ var Wifi = function Wifi(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('path', { d: 'M5 12.55a11 11 0 0 1 14.08 0' }),
     _react2.default.createElement('path', { d: 'M1.42 9a16 16 0 0 1 21.16 0' }),

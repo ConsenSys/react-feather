@@ -34,7 +34,8 @@ var ToggleLeft = function ToggleLeft(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('rect', { x: '1', y: '5', width: '22', height: '14', rx: '7', ry: '7' }),
     _react2.default.createElement('circle', { cx: '8', cy: '12', r: '3' })

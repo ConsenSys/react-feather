@@ -34,7 +34,8 @@ var Minimize2 = function Minimize2(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polyline', { points: '4 14 10 14 10 20' }),
     _react2.default.createElement('polyline', { points: '20 10 14 10 14 4' }),

@@ -1,12 +1,13 @@
 {
   "name": "react-feather",
-  "version": "1.1.6",
+  "version": "1.1.0",
   "description": "React component for Feather icons",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "git submodule update --recursive --remote && node ./bin/build && babel src --out-dir dist --ignore 'src/feather' --copy-files"
+    "build": "git submodule update --recursive --remote && node ./bin/build && babel src --out-dir dist --ignore 'src/feather' --copy-files",
+    "update": "git submodule update --recursive --remote"
   },
   "repository": {
     "type": "git",
@@ -45,7 +46,7 @@
     "uppercamelcase": "^3.0.0"
   },
   "peerDependencies": {
-    "react": ">= 15",
-    "prop-types": ">= 15"
+    "prop-types": ">= 15",
+    "react": ">= 15"
   }
 }

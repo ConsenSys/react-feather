@@ -14,6 +14,7 @@ const ChevronsDown = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polyline points="7 13 12 18 17 13" />

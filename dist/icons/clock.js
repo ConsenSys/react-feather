@@ -34,7 +34,8 @@ var Clock = function Clock(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('circle', { cx: '12', cy: '12', r: '10' }),
     _react2.default.createElement('polyline', { points: '12 6 12 12 16 14' })

@@ -14,6 +14,7 @@ const SkipForward = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polygon points="5 4 15 12 5 20 5 4" />

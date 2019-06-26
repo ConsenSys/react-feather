@@ -14,6 +14,7 @@ const Coffee = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <path d="M18 8h1a4 4 0 0 1 0 8h-1" />

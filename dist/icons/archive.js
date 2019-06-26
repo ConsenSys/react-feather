@@ -34,7 +34,8 @@ var Archive = function Archive(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polyline', { points: '21 8 21 21 3 21 3 8' }),
     _react2.default.createElement('rect', { x: '1', y: '3', width: '22', height: '5' }),

@@ -34,7 +34,8 @@ var Framer = function Framer(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('path', { d: 'M5 16V9h14V2H5l14 14h-7m-7 0l7 7v-7m-7 0h7' })
   );

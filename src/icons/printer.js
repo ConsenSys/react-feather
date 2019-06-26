@@ -14,6 +14,7 @@ const Printer = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polyline points="6 9 6 2 18 2 18 9" />

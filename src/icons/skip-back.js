@@ -14,6 +14,7 @@ const SkipBack = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polygon points="19 20 9 12 19 4 19 20" />

@@ -14,6 +14,7 @@ const ArrowUp = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <line x1="12" y1="19" x2="12" y2="5" />

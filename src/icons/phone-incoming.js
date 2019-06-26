@@ -14,6 +14,7 @@ const PhoneIncoming = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polyline points="16 2 16 8 22 8" />

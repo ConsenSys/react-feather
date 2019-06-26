@@ -14,6 +14,7 @@ const Navigation = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polygon points="3 11 22 2 13 21 11 13 3 11" />

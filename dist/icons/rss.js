@@ -34,7 +34,8 @@ var Rss = function Rss(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('path', { d: 'M4 11a9 9 0 0 1 9 9' }),
     _react2.default.createElement('path', { d: 'M4 4a16 16 0 0 1 16 16' }),

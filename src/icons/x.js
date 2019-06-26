@@ -14,6 +14,7 @@ const X = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <line x1="18" y1="6" x2="6" y2="18" />

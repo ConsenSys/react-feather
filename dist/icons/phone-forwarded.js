@@ -34,7 +34,8 @@ var PhoneForwarded = function PhoneForwarded(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polyline', { points: '19 1 23 5 19 9' }),
     _react2.default.createElement('line', { x1: '15', y1: '5', x2: '23', y2: '5' }),

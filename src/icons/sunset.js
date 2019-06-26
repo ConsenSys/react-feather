@@ -14,6 +14,7 @@ const Sunset = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <path d="M17 18a5 5 0 0 0-10 0" />

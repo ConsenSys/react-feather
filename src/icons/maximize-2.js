@@ -14,6 +14,7 @@ const Maximize2 = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polyline points="15 3 21 3 21 9" />

@@ -34,7 +34,8 @@ var Underline = function Underline(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('path', { d: 'M6 3v7a6 6 0 0 0 6 6 6 6 0 0 0 6-6V3' }),
     _react2.default.createElement('line', { x1: '4', y1: '21', x2: '20', y2: '21' })

@@ -34,7 +34,8 @@ var Lock = function Lock(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('rect', { x: '3', y: '11', width: '18', height: '11', rx: '2', ry: '2' }),
     _react2.default.createElement('path', { d: 'M7 11V7a5 5 0 0 1 10 0v4' })

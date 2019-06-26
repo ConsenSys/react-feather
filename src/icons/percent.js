@@ -14,6 +14,7 @@ const Percent = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <line x1="19" y1="5" x2="5" y2="19" />

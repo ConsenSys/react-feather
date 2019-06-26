@@ -34,7 +34,8 @@ var PhoneOutgoing = function PhoneOutgoing(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polyline', { points: '23 7 23 1 17 1' }),
     _react2.default.createElement('line', { x1: '16', y1: '8', x2: '23', y2: '1' }),

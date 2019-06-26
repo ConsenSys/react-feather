@@ -14,6 +14,7 @@ const PenTool = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <path d="M12 19l7-7 3 3-7 7-3-3z" />

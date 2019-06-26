@@ -66,7 +66,7 @@ glob(`${rootDir}/src/feather/icons/**.svg`, (err, icons) => {
             .replace(new RegExp('stroke="currentColor"', 'g'), 'stroke={color}')
             .replace('width="24"', 'width={size}')
             .replace('height="24"', 'height={size}')
-            .replace('otherProps="..."', '{...otherProps}')}
+            .replace('otherProps="..."', 'className="feather-icon"\n{...otherProps}')}
         )
       };
 

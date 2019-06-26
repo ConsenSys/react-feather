@@ -14,6 +14,7 @@ const Monitor = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />

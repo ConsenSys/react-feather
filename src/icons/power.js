@@ -14,6 +14,7 @@ const Power = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <path d="M18.36 6.64a9 9 0 1 1-12.73 0" />

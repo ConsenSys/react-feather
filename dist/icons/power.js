@@ -34,7 +34,8 @@ var Power = function Power(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('path', { d: 'M18.36 6.64a9 9 0 1 1-12.73 0' }),
     _react2.default.createElement('line', { x1: '12', y1: '2', x2: '12', y2: '12' })

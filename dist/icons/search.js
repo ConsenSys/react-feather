@@ -34,7 +34,8 @@ var Search = function Search(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('circle', { cx: '11', cy: '11', r: '8' }),
     _react2.default.createElement('line', { x1: '21', y1: '21', x2: '16.65', y2: '16.65' })

@@ -34,7 +34,8 @@ var ArrowDownLeft = function ArrowDownLeft(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('line', { x1: '17', y1: '7', x2: '7', y2: '17' }),
     _react2.default.createElement('polyline', { points: '17 17 7 17 7 7' })

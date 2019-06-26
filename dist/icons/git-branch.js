@@ -34,7 +34,8 @@ var GitBranch = function GitBranch(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('line', { x1: '6', y1: '3', x2: '6', y2: '15' }),
     _react2.default.createElement('circle', { cx: '18', cy: '6', r: '3' }),

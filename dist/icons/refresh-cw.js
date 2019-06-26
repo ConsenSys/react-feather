@@ -34,7 +34,8 @@ var RefreshCw = function RefreshCw(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polyline', { points: '23 4 23 10 17 10' }),
     _react2.default.createElement('polyline', { points: '1 20 1 14 7 14' }),

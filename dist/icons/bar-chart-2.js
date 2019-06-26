@@ -34,7 +34,8 @@ var BarChart2 = function BarChart2(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('line', { x1: '18', y1: '20', x2: '18', y2: '10' }),
     _react2.default.createElement('line', { x1: '12', y1: '20', x2: '12', y2: '4' }),

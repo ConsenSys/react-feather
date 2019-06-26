@@ -14,6 +14,7 @@ const MicOff = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <line x1="1" y1="1" x2="23" y2="23" />

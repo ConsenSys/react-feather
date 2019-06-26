@@ -34,7 +34,8 @@ var Video = function Video(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polygon', { points: '23 7 16 12 23 17 23 7' }),
     _react2.default.createElement('rect', { x: '1', y: '5', width: '15', height: '14', rx: '2', ry: '2' })

@@ -34,7 +34,8 @@ var ChevronsUp = function ChevronsUp(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polyline', { points: '17 11 12 6 7 11' }),
     _react2.default.createElement('polyline', { points: '17 18 12 13 7 18' })

@@ -34,7 +34,8 @@ var PauseCircle = function PauseCircle(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('circle', { cx: '12', cy: '12', r: '10' }),
     _react2.default.createElement('line', { x1: '10', y1: '15', x2: '10', y2: '9' }),
