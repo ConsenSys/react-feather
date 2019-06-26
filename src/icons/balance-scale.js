@@ -11,7 +11,7 @@ const BalanceScale = props => {
       viewBox="0 0 640 512"
       fill="none"
       stroke={color}
-      strokeWidth="2"
+      strokeWidth="10"
       strokeLinecap="round"
       strokeLinejoin="round"
       className="feather-icon"
