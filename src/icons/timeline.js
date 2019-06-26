@@ -34,7 +34,7 @@ Timeline.propTypes = {
 };
 
 Timeline.defaultProps = {
-  color: 'currentColor',
+  color: 'none',
   size: '24',
 };
 

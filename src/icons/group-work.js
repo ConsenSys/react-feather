@@ -28,7 +28,7 @@ GroupWork.propTypes = {
 };
 
 GroupWork.defaultProps = {
-  color: 'currentColor',
+  color: 'none',
   size: '24',
 };
 

@@ -29,7 +29,7 @@ DragIndicator.propTypes = {
 };
 
 DragIndicator.defaultProps = {
-  color: 'currentColor',
+  color: 'none',
   size: '24',
 };
 

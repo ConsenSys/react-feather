@@ -54,6 +54,12 @@ glob(`${rootDir}/src/feather/icons/**.svg`, (err, icons) => {
       }
     });
 
+    // Extract out the stroke color val so we can put it in the default PropType
+    const svgString = $('svg').toString();
+    const start = svg.indexOf('stroke="') + 'stroke="'.length;
+    const end = svg.indexOf('"', start);
+    const strokeVal = svg.substring(start, end);
+
     const element = `
       import React from 'react';
       import PropTypes from 'prop-types';
@@ -61,8 +67,7 @@ glob(`${rootDir}/src/feather/icons/**.svg`, (err, icons) => {
       const ${ComponentName} = (props) => {
         const { color, size, ...otherProps } = props;
         return (
-          ${$('svg')
-            .toString()
+          ${svgString
             .replace(new RegExp('stroke="currentColor"', 'g'), 'stroke={color}')
             .replace('width="24"', 'width={size}')
             .replace('height="24"', 'height={size}')
@@ -79,7 +84,7 @@ glob(`${rootDir}/src/feather/icons/**.svg`, (err, icons) => {
       }
 
       ${ComponentName}.defaultProps = {
-        color: 'currentColor',
+        color: '${strokeVal}',
         size: '24',
       }
 
