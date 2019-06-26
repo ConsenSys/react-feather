@@ -14,6 +14,7 @@ const RefreshCcw = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polyline points="1 4 1 10 7 10" />

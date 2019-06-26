@@ -34,7 +34,8 @@ var MoreHorizontal = function MoreHorizontal(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('circle', { cx: '12', cy: '12', r: '1' }),
     _react2.default.createElement('circle', { cx: '19', cy: '12', r: '1' }),

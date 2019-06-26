@@ -34,7 +34,8 @@ var Scissors = function Scissors(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('circle', { cx: '6', cy: '6', r: '3' }),
     _react2.default.createElement('circle', { cx: '6', cy: '18', r: '3' }),

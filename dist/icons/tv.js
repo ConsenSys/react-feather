@@ -34,7 +34,8 @@ var Tv = function Tv(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('rect', { x: '2', y: '7', width: '20', height: '15', rx: '2', ry: '2' }),
     _react2.default.createElement('polyline', { points: '17 2 12 7 7 2' })

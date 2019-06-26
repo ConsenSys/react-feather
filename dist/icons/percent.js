@@ -34,7 +34,8 @@ var Percent = function Percent(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('line', { x1: '19', y1: '5', x2: '5', y2: '19' }),
     _react2.default.createElement('circle', { cx: '6.5', cy: '6.5', r: '2.5' }),

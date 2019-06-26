@@ -14,6 +14,7 @@ const RotateCw = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polyline points="23 4 23 10 17 10" />

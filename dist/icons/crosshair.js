@@ -34,7 +34,8 @@ var Crosshair = function Crosshair(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('circle', { cx: '12', cy: '12', r: '10' }),
     _react2.default.createElement('line', { x1: '22', y1: '12', x2: '18', y2: '12' }),

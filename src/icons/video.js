@@ -14,6 +14,7 @@ const Video = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polygon points="23 7 16 12 23 17 23 7" />

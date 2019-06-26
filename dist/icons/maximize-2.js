@@ -34,7 +34,8 @@ var Maximize2 = function Maximize2(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polyline', { points: '15 3 21 3 21 9' }),
     _react2.default.createElement('polyline', { points: '9 21 3 21 3 15' }),

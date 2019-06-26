@@ -14,6 +14,7 @@ const Terminal = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polyline points="4 17 10 11 4 5" />

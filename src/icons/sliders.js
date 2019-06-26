@@ -14,6 +14,7 @@ const Sliders = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <line x1="4" y1="21" x2="4" y2="14" />

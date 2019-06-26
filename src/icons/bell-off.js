@@ -14,6 +14,7 @@ const BellOff = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <path d="M13.73 21a2 2 0 0 1-3.46 0" />

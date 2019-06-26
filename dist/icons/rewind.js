@@ -34,7 +34,8 @@ var Rewind = function Rewind(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polygon', { points: '11 19 2 12 11 5 11 19' }),
     _react2.default.createElement('polygon', { points: '22 19 13 12 22 5 22 19' })

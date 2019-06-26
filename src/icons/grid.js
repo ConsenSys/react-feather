@@ -14,6 +14,7 @@ const Grid = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <rect x="3" y="3" width="7" height="7" />

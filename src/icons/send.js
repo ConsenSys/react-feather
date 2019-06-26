@@ -14,6 +14,7 @@ const Send = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <line x1="22" y1="2" x2="11" y2="13" />

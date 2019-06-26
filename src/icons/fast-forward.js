@@ -14,6 +14,7 @@ const FastForward = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polygon points="13 19 22 12 13 5 13 19" />

@@ -14,6 +14,7 @@ const Code = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polyline points="16 18 22 12 16 6" />

@@ -34,7 +34,8 @@ var Play = function Play(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polygon', { points: '5 3 19 12 5 21 5 3' })
   );

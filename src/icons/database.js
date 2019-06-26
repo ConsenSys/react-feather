@@ -14,6 +14,7 @@ const Database = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <ellipse cx="12" cy="5" rx="9" ry="3" />

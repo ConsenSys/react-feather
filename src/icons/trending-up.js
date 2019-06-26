@@ -14,6 +14,7 @@ const TrendingUp = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polyline points="23 6 13.5 15.5 8.5 10.5 1 18" />

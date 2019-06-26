@@ -34,7 +34,8 @@ var BellOff = function BellOff(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('path', { d: 'M13.73 21a2 2 0 0 1-3.46 0' }),
     _react2.default.createElement('path', { d: 'M18.63 13A17.89 17.89 0 0 1 18 8' }),

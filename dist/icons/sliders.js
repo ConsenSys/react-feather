@@ -34,7 +34,8 @@ var Sliders = function Sliders(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('line', { x1: '4', y1: '21', x2: '4', y2: '14' }),
     _react2.default.createElement('line', { x1: '4', y1: '10', x2: '4', y2: '3' }),

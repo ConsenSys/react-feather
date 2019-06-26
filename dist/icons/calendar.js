@@ -34,7 +34,8 @@ var Calendar = function Calendar(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('rect', { x: '3', y: '4', width: '18', height: '18', rx: '2', ry: '2' }),
     _react2.default.createElement('line', { x1: '16', y1: '2', x2: '16', y2: '6' }),

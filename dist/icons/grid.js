@@ -34,7 +34,8 @@ var Grid = function Grid(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('rect', { x: '3', y: '3', width: '7', height: '7' }),
     _react2.default.createElement('rect', { x: '14', y: '3', width: '7', height: '7' }),

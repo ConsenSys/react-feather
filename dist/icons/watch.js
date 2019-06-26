@@ -34,7 +34,8 @@ var Watch = function Watch(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('circle', { cx: '12', cy: '12', r: '7' }),
     _react2.default.createElement('polyline', { points: '12 9 12 12 13.5 13.5' }),

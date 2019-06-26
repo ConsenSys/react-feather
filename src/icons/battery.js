@@ -14,6 +14,7 @@ const Battery = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <rect x="1" y="6" width="18" height="12" rx="2" ry="2" />

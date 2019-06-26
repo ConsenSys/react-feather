@@ -34,7 +34,8 @@ var ChevronsLeft = function ChevronsLeft(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polyline', { points: '11 17 6 12 11 7' }),
     _react2.default.createElement('polyline', { points: '18 17 13 12 18 7' })

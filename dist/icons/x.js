@@ -34,7 +34,8 @@ var X = function X(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('line', { x1: '18', y1: '6', x2: '6', y2: '18' }),
     _react2.default.createElement('line', { x1: '6', y1: '6', x2: '18', y2: '18' })

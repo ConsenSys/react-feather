@@ -14,6 +14,7 @@ const Hash = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <line x1="4" y1="9" x2="20" y2="9" />

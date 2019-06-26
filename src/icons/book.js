@@ -14,6 +14,7 @@ const Book = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />

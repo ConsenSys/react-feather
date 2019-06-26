@@ -34,7 +34,8 @@ var Gift = function Gift(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polyline', { points: '20 12 20 22 4 22 4 12' }),
     _react2.default.createElement('rect', { x: '2', y: '7', width: '20', height: '5' }),

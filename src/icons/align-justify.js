@@ -14,6 +14,7 @@ const AlignJustify = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <line x1="21" y1="10" x2="3" y2="10" />

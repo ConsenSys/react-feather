@@ -34,7 +34,8 @@ var Codepen = function Codepen(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('polygon', { points: '12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2' }),
     _react2.default.createElement('line', { x1: '12', y1: '22', x2: '12', y2: '15.5' }),

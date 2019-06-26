@@ -34,7 +34,8 @@ var CheckCircle = function CheckCircle(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('path', { d: 'M22 11.08V12a10 10 0 1 1-5.93-9.14' }),
     _react2.default.createElement('polyline', { points: '22 4 12 14.01 9 11.01' })

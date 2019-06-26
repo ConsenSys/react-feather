@@ -34,7 +34,8 @@ var Pause = function Pause(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('rect', { x: '6', y: '4', width: '4', height: '16' }),
     _react2.default.createElement('rect', { x: '14', y: '4', width: '4', height: '16' })

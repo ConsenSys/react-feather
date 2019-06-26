@@ -14,6 +14,7 @@ const CornerDownRight = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <polyline points="15 10 20 15 15 20" />

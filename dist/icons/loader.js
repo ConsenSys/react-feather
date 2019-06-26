@@ -34,7 +34,8 @@ var Loader = function Loader(props) {
       stroke: color,
       strokeWidth: '2',
       strokeLinecap: 'round',
-      strokeLinejoin: 'round'
+      strokeLinejoin: 'round',
+      className: 'feather-icon'
     }, otherProps),
     _react2.default.createElement('line', { x1: '12', y1: '2', x2: '12', y2: '6' }),
     _react2.default.createElement('line', { x1: '12', y1: '18', x2: '12', y2: '22' }),

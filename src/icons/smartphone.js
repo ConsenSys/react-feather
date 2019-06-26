@@ -14,6 +14,7 @@ const Smartphone = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />

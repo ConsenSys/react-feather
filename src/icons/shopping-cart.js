@@ -14,6 +14,7 @@ const ShoppingCart = props => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
+      className="feather-icon"
       {...otherProps}
     >
       <circle cx="9" cy="21" r="1" />
