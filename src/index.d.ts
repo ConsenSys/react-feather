@@ -218,6 +218,7 @@ export const Save: Icon;
 export const Scissors: Icon;
 export const Search: Icon;
 export const Send: Icon;
+export const Sentiment: Icon;
 export const Server: Icon;
 export const Settings: Icon;
 export const Share2: Icon;

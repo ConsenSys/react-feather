@@ -209,6 +209,7 @@ export Save from './icons/save';
 export Scissors from './icons/scissors';
 export Search from './icons/search';
 export Send from './icons/send';
+export Sentiment from './icons/sentiment';
 export Server from './icons/server';
 export Settings from './icons/settings';
 export Share2 from './icons/share-2';
