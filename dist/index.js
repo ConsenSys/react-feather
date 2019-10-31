@@ -3,9 +3,9 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.ZoomOut = exports.ZoomIn = exports.Zap = exports.ZapOff = exports.Youtube = exports.X = exports.XSquare = exports.XOctagon = exports.XCircle = exports.Wind = exports.Wifi = exports.WifiOff = exports.Watch = exports.Volume = exports.VolumeX = exports.Volume2 = exports.Volume1 = exports.Voicemail = exports.Video = exports.VideoOff = exports.Users = exports.User = exports.UserX = exports.UserPlus = exports.UserMinus = exports.UserCheck = exports.Upload = exports.UploadCloud = exports.Unlock = exports.Underline = exports.Umbrella = exports.Type = exports.Twitter = exports.Tv = exports.Truck = exports.Triangle = exports.TrendingUp = exports.TrendingDown = exports.Trello = exports.Trash = exports.Trash2 = exports.ToggleRight = exports.ToggleLeft = exports.Timeline = exports.ThumbsupReaction = exports.ThumbsUp = exports.ThumbsDown = exports.Thermometer = exports.Terminal = exports.Target = exports.Tag = exports.Tablet = exports.Sunset = exports.Sunrise = exports.Sun = exports.StopCircle = exports.Star = exports.Square = exports.Speaker = exports.Sort = exports.Smile = exports.Smartphone = exports.Sliders = exports.Slash = exports.Slack = exports.SkipForward = exports.SkipBack = exports.Sidebar = exports.Shuffle = exports.ShoppingCart = exports.ShoppingBag = exports.Shield = exports.ShieldOff = exports.Share = exports.Share2 = exports.Settings = exports.Server = exports.Sentiment = exports.Send = exports.Search = exports.Scissors = exports.Save = exports.Rss = exports.RotateCw = exports.RotateCcw = exports.Rewind = exports.Repeat = exports.RefreshCw = exports.RefreshCcw = undefined;
-exports.Radio = exports.Printer = exports.Power = exports.Pocket = exports.Plus = exports.PlusSquare = exports.PlusCircle = exports.Play = exports.PlayCircle = exports.PieChart = exports.Phone = exports.PhoneOutgoing = exports.PhoneOff = exports.PhoneMissed = exports.PhoneIncoming = exports.PhoneForwarded = exports.PhoneCall = exports.Percent = exports.PenTool = exports.Pause = exports.PauseCircle = exports.Paperclip = exports.Package = exports.Octagon = exports.Navigation = exports.Navigation2 = exports.Music = exports.Move = exports.MousePointer = exports.MoreVertical = exports.MoreHorizontal = exports.Moon = exports.Monitor = exports.Minus = exports.MinusSquare = exports.MinusCircle = exports.Minimize = exports.Minimize2 = exports.Mic = exports.MicOff = exports.MessageSquare = exports.MessageCircle = exports.Menu = exports.Meh = exports.Maximize = exports.Maximize2 = exports.Map = exports.MapPin = exports.Mail = exports.LogOut = exports.LogIn = exports.Lock = exports.Loader = exports.List = exports.Linkedin = exports.Link = exports.Link2 = exports.LifeBuoy = exports.Layout = exports.Layers = exports.Key = exports.Italic = exports.Instagram = exports.Info = exports.Inbox = exports.Image = exports.Home = exports.Hexagon = exports.HelpCircle = exports.Heart = exports.Headphones = exports.Hash = exports.HardDrive = exports.GroupWork = exports.Grid = exports.Globe = exports.Gitlab = exports.GitHub = exports.GitPullRequest = exports.GitMerge = exports.GitCommit = exports.GitBranch = exports.Gift = exports.Gavel = exports.Frown = exports.Framer = exports.Folder = exports.FolderPlus = exports.FolderMinus = exports.Flag = exports.Filter = exports.Film = exports.File = exports.FileText = exports.FilePlus = exports.FileMinus = exports.Figma = exports.Feather = exports.FastForward = exports.Facebook = undefined;
-exports.Eye = exports.EyeOff = exports.ExternalLink = exports.Edit = exports.Edit3 = exports.Edit2 = exports.Droplet = exports.DragIndicator = exports.Download = exports.DownloadCloud = exports.DollarSign = exports.Discussion = exports.Disc = exports.Delete = exports.Database = exports.Crosshair = exports.Crop = exports.CreditCard = exports.Cpu = exports.CornerUpRight = exports.CornerUpLeft = exports.CornerRightUp = exports.CornerRightDown = exports.CornerLeftUp = exports.CornerLeftDown = exports.CornerDownRight = exports.CornerDownLeft = exports.Copy = exports.Compass = exports.Command = exports.Columns = exports.Coffee = exports.Codesandbox = exports.Codepen = exports.Code = exports.Cloud = exports.CloudSnow = exports.CloudRain = exports.CloudOff = exports.CloudLightning = exports.CloudDrizzle = exports.Clock = exports.Clipboard = exports.Circle = exports.Chrome = exports.ChevronsUp = exports.ChevronsRight = exports.ChevronsLeft = exports.ChevronsDown = exports.ChevronUp = exports.ChevronRight = exports.ChevronLeft = exports.ChevronDown = exports.Check = exports.CheckSquare = exports.CheckCircle = exports.Cast = exports.Camera = exports.CameraOff = exports.Calendar = exports.Briefcase = exports.Box = exports.Bookmark = exports.Book = exports.BookOpen = exports.Bold = exports.Bluetooth = exports.Bell = exports.BellOff = exports.Battery = exports.BatteryCharging = exports.BarChart = exports.BarChart2 = exports.BalanceScale = exports.Award = exports.AtSign = exports.ArrowUp = exports.ArrowUpRight = exports.ArrowUpLeft = exports.ArrowUpCircle = exports.ArrowRight = exports.ArrowRightCircle = exports.ArrowLeft = exports.ArrowLeftCircle = exports.ArrowDown = exports.ArrowDownRight = exports.ArrowDownLeft = exports.ArrowDownCircle = exports.Archive = exports.Aperture = exports.Anchor = exports.AlignRight = exports.AlignLeft = exports.AlignJustify = exports.AlignCenter = exports.AlertTriangle = exports.AlertOctagon = exports.AlertCircle = exports.Airplay = exports.Activity = undefined;
+exports.ZoomOut = exports.ZoomIn = exports.Zap = exports.ZapOff = exports.Youtube = exports.X = exports.XSquare = exports.XOctagon = exports.XCircle = exports.Wind = exports.Wifi = exports.WifiOff = exports.Watch = exports.Volume = exports.VolumeX = exports.Volume2 = exports.Volume1 = exports.Voicemail = exports.Video = exports.VideoOff = exports.Users = exports.User = exports.UserX = exports.UserPlus = exports.UserMinus = exports.UserCheck = exports.Upload = exports.UploadCloud = exports.Unlock = exports.Underline = exports.Umbrella = exports.Type = exports.Twitter = exports.Tv = exports.Truck = exports.Triangle = exports.TrendingUp = exports.TrendingDown = exports.Trello = exports.Trash = exports.Trash2 = exports.ToggleRight = exports.ToggleLeft = exports.Timeline = exports.ThumbsupReaction = exports.ThumbsdownReaction = exports.ThumbsUp = exports.ThumbsDown = exports.Thermometer = exports.Terminal = exports.Target = exports.Tag = exports.Tablet = exports.Sunset = exports.Sunrise = exports.Sun = exports.StopCircle = exports.Star = exports.Square = exports.Speaker = exports.Sort = exports.Smile = exports.Smartphone = exports.Sliders = exports.Slash = exports.Slack = exports.SkipForward = exports.SkipBack = exports.Sidebar = exports.Shuffle = exports.ShoppingCart = exports.ShoppingBag = exports.Shield = exports.ShieldOff = exports.Share = exports.Share2 = exports.Settings = exports.Server = exports.Sentiment = exports.Send = exports.Search = exports.Scissors = exports.Save = exports.Rss = exports.RotateCw = exports.RotateCcw = exports.Rewind = exports.Repeat = exports.RefreshCw = exports.RefreshCcw = exports.Radio = exports.QuestionReaction = undefined;
+exports.Printer = exports.Power = exports.Pocket = exports.Plus = exports.PlusSquare = exports.PlusCircle = exports.Play = exports.PlayCircle = exports.PieChart = exports.Phone = exports.PhoneOutgoing = exports.PhoneOff = exports.PhoneMissed = exports.PhoneIncoming = exports.PhoneForwarded = exports.PhoneCall = exports.Percent = exports.PenTool = exports.Pause = exports.PauseCircle = exports.Paperclip = exports.Package = exports.Octagon = exports.Navigation = exports.Navigation2 = exports.Music = exports.Move = exports.MousePointer = exports.MoreVertical = exports.MoreHorizontal = exports.Moon = exports.Monitor = exports.Minus = exports.MinusSquare = exports.MinusCircle = exports.Minimize = exports.Minimize2 = exports.Mic = exports.MicOff = exports.MessageSquare = exports.MessageCircle = exports.Menu = exports.Meh = exports.Maximize = exports.Maximize2 = exports.Map = exports.MapPin = exports.Mail = exports.LogOut = exports.LogIn = exports.Lock = exports.Loader = exports.List = exports.Linkedin = exports.Link = exports.Link2 = exports.LifeBuoy = exports.Layout = exports.Layers = exports.Key = exports.Italic = exports.Instagram = exports.Info = exports.Inbox = exports.Image = exports.Home = exports.Hexagon = exports.HelpCircle = exports.Heart = exports.Headphones = exports.Hash = exports.HardDrive = exports.GroupWork = exports.Grid = exports.Globe = exports.Gitlab = exports.GitHub = exports.GitPullRequest = exports.GitMerge = exports.GitCommit = exports.GitBranch = exports.Gift = exports.Gavel = exports.Frown = exports.Framer = exports.Folder = exports.FolderPlus = exports.FolderMinus = exports.Flag = exports.Filter = exports.Film = exports.File = exports.FileText = exports.FilePlus = exports.FileMinus = exports.Figma = exports.Feather = exports.FastForward = exports.Facebook = exports.Eye = undefined;
+exports.EyeOff = exports.ExternalLink = exports.Edit = exports.Edit3 = exports.Edit2 = exports.Droplet = exports.DragIndicator = exports.Download = exports.DownloadCloud = exports.DollarSign = exports.Discussion = exports.Disc = exports.Delete = exports.Database = exports.Crosshair = exports.Crop = exports.CreditCard = exports.Cpu = exports.CornerUpRight = exports.CornerUpLeft = exports.CornerRightUp = exports.CornerRightDown = exports.CornerLeftUp = exports.CornerLeftDown = exports.CornerDownRight = exports.CornerDownLeft = exports.Copy = exports.Compass = exports.Command = exports.Columns = exports.Coffee = exports.Codesandbox = exports.Codepen = exports.Code = exports.Cloud = exports.CloudSnow = exports.CloudRain = exports.CloudOff = exports.CloudLightning = exports.CloudDrizzle = exports.Clock = exports.Clipboard = exports.Circle = exports.Chrome = exports.ChevronsUp = exports.ChevronsRight = exports.ChevronsLeft = exports.ChevronsDown = exports.ChevronUp = exports.ChevronRight = exports.ChevronLeft = exports.ChevronDown = exports.Check = exports.CheckSquare = exports.CheckCircle = exports.Cast = exports.Camera = exports.CameraOff = exports.Calendar = exports.Briefcase = exports.Box = exports.Bookmark = exports.Book = exports.BookOpen = exports.Bold = exports.Bluetooth = exports.BlockReaction = exports.Bell = exports.BellOff = exports.Battery = exports.BatteryCharging = exports.BarChart = exports.BarChart2 = exports.BalanceScale = exports.Award = exports.AtSign = exports.ArrowUp = exports.ArrowUpRight = exports.ArrowUpLeft = exports.ArrowUpCircle = exports.ArrowRight = exports.ArrowRightCircle = exports.ArrowLeft = exports.ArrowLeftCircle = exports.ArrowDown = exports.ArrowDownRight = exports.ArrowDownLeft = exports.ArrowDownCircle = exports.Archive = exports.Aperture = exports.Anchor = exports.AlignRight = exports.AlignLeft = exports.AlignJustify = exports.AlignCenter = exports.AlertTriangle = exports.AlertOctagon = exports.AlertCircle = exports.Airplay = exports.Activity = undefined;
 
 var _activity = require('./icons/activity');
 
@@ -138,6 +138,10 @@ var _bellOff2 = _interopRequireDefault(_bellOff);
 var _bell = require('./icons/bell');
 
 var _bell2 = _interopRequireDefault(_bell);
+
+var _blockReaction = require('./icons/block-reaction');
+
+var _blockReaction2 = _interopRequireDefault(_blockReaction);
 
 var _bluetooth = require('./icons/bluetooth');
 
@@ -803,6 +807,10 @@ var _printer = require('./icons/printer');
 
 var _printer2 = _interopRequireDefault(_printer);
 
+var _questionReaction = require('./icons/question-reaction');
+
+var _questionReaction2 = _interopRequireDefault(_questionReaction);
+
 var _radio = require('./icons/radio');
 
 var _radio2 = _interopRequireDefault(_radio);
@@ -982,6 +990,10 @@ var _thumbsDown2 = _interopRequireDefault(_thumbsDown);
 var _thumbsUp = require('./icons/thumbs-up');
 
 var _thumbsUp2 = _interopRequireDefault(_thumbsUp);
+
+var _thumbsdownReaction = require('./icons/thumbsdown-reaction');
+
+var _thumbsdownReaction2 = _interopRequireDefault(_thumbsdownReaction);
 
 var _thumbsupReaction = require('./icons/thumbsup-reaction');
 
@@ -1198,6 +1210,7 @@ exports.BatteryCharging = _batteryCharging2.default;
 exports.Battery = _battery2.default;
 exports.BellOff = _bellOff2.default;
 exports.Bell = _bell2.default;
+exports.BlockReaction = _blockReaction2.default;
 exports.Bluetooth = _bluetooth2.default;
 exports.Bold = _bold2.default;
 exports.BookOpen = _bookOpen2.default;
@@ -1364,6 +1377,7 @@ exports.Plus = _plus2.default;
 exports.Pocket = _pocket2.default;
 exports.Power = _power2.default;
 exports.Printer = _printer2.default;
+exports.QuestionReaction = _questionReaction2.default;
 exports.Radio = _radio2.default;
 exports.RefreshCcw = _refreshCcw2.default;
 exports.RefreshCw = _refreshCw2.default;
@@ -1409,6 +1423,7 @@ exports.Terminal = _terminal2.default;
 exports.Thermometer = _thermometer2.default;
 exports.ThumbsDown = _thumbsDown2.default;
 exports.ThumbsUp = _thumbsUp2.default;
+exports.ThumbsdownReaction = _thumbsdownReaction2.default;
 exports.ThumbsupReaction = _thumbsupReaction2.default;
 exports.Timeline = _timeline2.default;
 exports.ToggleLeft = _toggleLeft2.default;
