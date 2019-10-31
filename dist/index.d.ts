@@ -251,6 +251,7 @@ export const Terminal: Icon;
 export const Thermometer: Icon;
 export const ThumbsDown: Icon;
 export const ThumbsUp: Icon;
+export const ThumbsupReaction: Icon;
 export const Timeline: Icon;
 export const ToggleLeft: Icon;
 export const ToggleRight: Icon;

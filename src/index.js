@@ -242,6 +242,7 @@ export Terminal from './icons/terminal';
 export Thermometer from './icons/thermometer';
 export ThumbsDown from './icons/thumbs-down';
 export ThumbsUp from './icons/thumbs-up';
+export ThumbsupReaction from './icons/thumbsup-reaction';
 export Timeline from './icons/timeline';
 export ToggleLeft from './icons/toggle-left';
 export ToggleRight from './icons/toggle-right';
